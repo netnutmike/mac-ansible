@@ -1,0 +1,121 @@
+downloads: ~/.ansible-downloads/
+
+configure_dotfiles: true
+configure_terminal: false
+configure_osx: true
+
+configure_dock: false
+dockitems_remove: []
+dockitems_persist: []
+
+configure_sudoers: false
+sudoers_custom_config: ""
+
+dotfiles_repo: https://github.com/Joshbarrington/dotfiles.git
+dotfiles_repo_accept_hostkey: true
+dotfiles_repo_local_destination: ~/github/dotfiles
+dotfiles_files:
+  - .gitconfig
+  - .gitignoreglobal
+  - .osx
+  - .zshrc
+  - .treeignore
+
+homebrew_installed_packages:
+  - aws-shell
+  - awscli
+  - azure-cli
+  - asdf
+  - bat
+  - broot
+  - ccls
+  - clang-format
+  - cmake
+  - ctags
+  - curl
+  - exa
+  - fd
+  - ffmpeg
+  - fswatch
+  - fzf
+  - fx
+  - gh
+  - gcc
+  - git
+  - httpie
+  - hub
+  - jq
+  - mas
+  - neovim
+  - node
+  - openssl
+  - ripgrep
+  - rename
+  - tig
+  - tree
+  - tmuxinator
+  - rustup-init
+  - unzip
+  - wget
+  - zsh
+  - zsh-autosuggestions
+  - youtube-dl
+  - git-lfs
+  - pre-commit
+
+homebrew_taps:
+  - homebrew/core
+  - homebrew/cask-fonts
+
+homebrew_cask_appdir: /Applications
+homebrew_cask_apps:
+  - docker
+  - rectangle
+  - firefox
+  - google-chrome
+  - licecap
+  - slack
+  - iterm2
+  - dash
+  - tunnelblick
+  - keybase
+  - spotify
+  - visual-studio-code
+  - postman
+  - font-fira-code
+  - font-fira-code-nerd-font
+  - maccy
+  - vlc
+  - xld
+  - audio-hijack
+  - keycastr
+  - beardedspice
+  - chromedriver
+  - keepassxc
+  - signal
+  - whatsapp
+  - touchdesigner
+  - pgadmin4
+  - nordvpn
+  - soulseek
+  - rekordbox
+
+# See https://github.com/geerlingguy/mac-dev-playbook for below config options.
+mas_installed_apps: []
+mas_email: ""
+mas_password: ""
+
+osx_script: "sudo bash ~/.osx --no-restart"
+
+composer_packages: []
+
+gem_packages: []
+
+npm_packages: []
+
+pip_packages: []
+
+configure_sublime: false
+
+post_provision_tasks: []
+
