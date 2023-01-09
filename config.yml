@@ -31,6 +31,7 @@ homebrew_installed_packages:
   - ccls
   - clang-format
   - cmake
+  - cowsay
   - ctags
   - curl
   - exa
@@ -42,15 +43,20 @@ homebrew_installed_packages:
   - gh
   - gcc
   - git
+  - go
+  - gpg
   - httpie
   - hub
   - jq
   - mas
   - neovim
+  - nmap
   - node
+  - nvm
   - openssl
   - ripgrep
   - rename
+  - serverless
   - tig
   - tree
   - tmuxinator
@@ -96,7 +102,22 @@ homebrew_cask_apps:
   - whatsapp
   - touchdesigner
   - pgadmin4
-  - nordvpn
+  - omnigraffle
+  - todoist
+  - balenaetcher
+  - discord
+  - mqtt-explorer
+  - authy
+  - lastpass
+  - 1password
+  - dropbox
+  - tailscale
+  - adobe-creative-cloud
+  - autodesk-fusion360
+  - obs
+  - obs-ndi
+  - obs-virtualcam
+#  - softraid
   - soulseek
   - rekordbox
 
